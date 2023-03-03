@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Lentini Matthieu" />
+	<meta name="description" content="hello there!" />
+	<meta name="keyWord" content="42" />
+	<title>M413 - TD 1</title>
+	<link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/td1.css" />
+	<script defer="defer" src="js/td1.js"></script>
+</head>
+
+<body onload="onLoad();">
+	<h1 id="title" class="firstOrLast">balise H1.1</h1>
+	<h2>balise H2.1</h2>
+	<h2 class="firstOrLast">balise H2.2</h2>
+	<h3 class="firstOrLast">balise H3.1</h3>
+	<h3>balise H3.2</h3>
+	<h3>balise H3.3</h3>
+	<div>
+		<p>je suis <span>pakistanais</span></p>
+	</div>
+	<div>
+		<p>je veux manger <span>un tajine</span></p>
+	</div>
+	<p id="nbLeft">Il reste xx jours avant le xxxx</p>
+	<div id="horloge">
+		<div id="clockA"></div>
+
+		<div id="clockB">
+			<div class="numClock">
+				<div id="un"><img src=".\assets\images\1.gif"></div>
+				<div id="deux"><img src=".\assets\images\2.gif"></div>
+				<div id="trois"><img src=".\assets\images\3.gif"></div>
+				<div id="quatre"><img src=".\assets\images\4.gif"></div>
+				<div id="cinq"><img src=".\assets\images\5.gif"></div>
+				<div id="six"><img src=".\assets\images\6.gif"></div>
+				<div id="sept"><img src=".\assets\images\7.gif"></div>
+				<div id="huit"><img src=".\assets\images\8.gif"></div>
+				<div id="neuf"><img src=".\assets\images\9.gif"></div>
+				<div id="dix"><img src=".\assets\images\1.gif"><img src=".\assets\images\0.gif"></div>
+				<div id="onze"><img src=".\assets\images\1.gif"><img src=".\assets\images\1.gif"></div>
+				<div id="douze"><img src=".\assets\images\1.gif"><img src=".\assets\images\2.gif"></div>
+			</div>
+			<div class="hand second-hand"></div>
+			<div class="hand hour-hand"></div>
+			<div class="hand min-hand"></div>
+		</div>
+	</div>
+
+	<form>
+		<input oninput="formColor(this);" type="text" placeholder="écrit là">
+	</form>
+
+	<aside>
+		<span>
+			<img src="assets\images\plus.gif" id="imgInfo">
+			<button onclick='openMenu("Info","imgInfo")'>Informations Générales</button>
+		</span>
+		<div id="Info">
+			<a>Accueil</a>
+			<a>CV</a>
+		</div>
+
+		<span>
+			<img src="assets\images\plus.gif" id="imgRecherche">
+			<button onclick='openMenu("Recherche","imgRecherche")'>Recherche</button>
+		</span>
+		<div id="Recherche">
+			<a>Activités</a>
+			<a>Rayonnement Scientifique</a>
+			<a>Projets en cours</a>
+			<a>Ancien projets</a>
+			<a>Publications</a>
+		</div>
+
+		<span>
+			<img src="assets\images\plus.gif" id="imgEnseignement">
+			<button onclick='openMenu("Enseignement","imgEnseignement")'>Enseignement</button>
+		</span>
+		<div id="Enseignement">
+			<a>Département Informatique</a>
+			<a>LP SIL</a>
+			<a>Polytech Nice-Sophia</a>
+			<a>Autres</a>
+			<a>Stages et Projets</a>
+		</div>
+
+		<span>
+			<img src="assets\images\plus.gif" id="imgPersonnel">
+			<button onclick='openMenu("Personnel","imgPersonnel")'>Personnel</button>
+		</span>
+		<div id="Personnel">
+			<a>Monique</a>
+		</div>
+
+	</aside>
+
+	<p>
+		<button onclick="search()">search</button>
+		<input type="text" placeholder="votre mot" id="mot">
+	</p>
+
+	<div id="update-date"></div>
+</body>
+
+</html>

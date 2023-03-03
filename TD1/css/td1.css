@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+#horloge {
+  background-color: rgb(89, 46, 22);
+  margin: 10px;
+  width: 15rem;
+}
+
+#clockA {
+  margin: 15px auto;
+  padding: 10px 0px;
+  color: white;
+  background-color: #202830;
+  font-size: large;
+  text-align: center;
+}
+
+#clockB {
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+  padding: 2rem;
+  border: 7px solid rgb(89, 46, 22);
+  background-color: rgb(224, 194, 155);
+  border-radius: 50%;
+  margin: 10px auto;
+}
+
+.hand {
+  width: 50%;
+  right: 50%;
+  height: 6px;
+  background: #202830;
+  position: absolute;
+  top: 50%;
+  border-radius: 6px;
+  transform-origin: 100%;
+}
+
+.hand.hour-hand {
+  width: 30%;
+}
+
+.hand.min-hand {
+  height: 3px;
+  width: 40%;
+}
+
+.hand.second-hand {
+  background: #ad1212;
+  width: 45%;
+  height: 2px;
+}
+
+
+.numClock div {
+  position: absolute;
+}
+
+#un {
+  top: 14%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+#deux {
+  top: 30%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+#trois {
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+}
+
+#quatre {
+  top: 75%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+#cinq {
+  top: 90%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+#six {
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+#sept {
+  top: 90%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+#huit {
+  top: 75%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+#neuf {
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+}
+
+#dix {
+  top: 30%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+}
+
+#onze {
+  top: 14%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+#douze {
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+aside {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+aside span{
+  margin-top: 15px;
+  display: block;
+  padding: 16px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+aside span img{
+  height: 20px;
+  width: 20px;
+  background-color: aquamarine;
+}
+
+aside span button {
+  color: white;
+  background-color: blue;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+aside div {
+  margin-top: -7px;
+  display: none;
+  text-decoration: underline;
+  background-color: black;
+  border-radius: 0px 0px 10px 10px;
+}
+
+aside div a {
+  display: block;
+}
+
+aside div a:hover {
+  background-color: navy;
+}
+
+span #yellow{
+  background-color: yellow;
+}
