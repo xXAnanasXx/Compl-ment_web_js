@@ -1,9 +1,9 @@
 # M413 - TD1 : Réponses aux Questions
 
 ➢ Quel sera l’évènement qui déclenchera l’appelle de votre fonction ?
-
+```
 la fonction onLoad() dans le td1.js
-
+```
 
 ➢ Quelle méthode avez-vous utilisée pour récupérer l’objet représentant votre balise \<h1> ?
 ```
