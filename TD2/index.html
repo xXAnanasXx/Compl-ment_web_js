@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="author" content="Jean-Michel Bruneau - UCA - IUT - INFO" />
+	<title>M413 - TD 2</title>
+	<link href="assets/favicon.ico" rel="icon" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="css/td2.css" />
+	<script defer="defer" src="js/td2.js"></script>
+</head>
+
+<body>
+	<div id='insert-div'>
+		<select id='insert-type' name='type'>
+			<option value='div'>div</option>
+			<option value='p'>p</option>
+			<option value='span'>span</option>
+		</select><input type='text' id='insert-text' value='My New Text Element'></div>
+	<h1 id="title">Lorem Ipsum</h1>
+	<h2>Lorem Ipsum</h2>
+	<h2>Lorem Ipsum</h2>
+	<div>Duis iaculis et dolor non viverra. Etiam bibendum ullamcorper sapien id viverra. Quisque justo ligula, vehicula
+		eu aliquam lacinia, sodales at ligula. Donec aliquam posuere turpis, vitae maximus nibh placerat id. Sed gravida
+		pharetra aliquet. In pretium et metus sit amet vestibulum. Ut vitae volutpat nisi.</div>
+	<p>Integer <span>ullamcorper</span> varius lacinia. Suspendisse turpis mi, ullamcorper in leo in, faucibus pharetra
+		diam. Donec mollis at lectus nec laoreet. Donec magna est, posuere in maximus ut, aliquam quis massa. Nulla
+		consectetur et nibh eget viverra. Sed at orci mauris. Fusce tortor mi, venenatis tempor dui in, malesuada luctus
+		nisl. Curabitur pellentesque, lacus eu condimentum varius, sem ex suscipit ante, in congue massa urna non ante.
+		Proin sodales cursus ligula vitae aliquam. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+		per inceptos himenaeos. Etiam tempor orci vel ligula aliquam posuere. Nunc metus ligula, blandit eget lacus
+		vitae, faucibus faucibus odio. Ut hendrerit, erat ut ultricies dapibus, sapien risus vehicula orci, vitae
+		elementum dui ipsum et lacus. Phasellus in sapien at nibh vehicula mollis. Cras nec erat et sem malesuada
+		elementum a non magna. Proin ultrices lorem vitae libero efficitur, et fringilla risus tristique.</p>
+	<ul>
+		<li>Maecenas varius turpis in leo egestas, a <span>tristique</span> est feugiat.</li>
+		<li>Donec <a>tempus</a> purus iaculis augue cursus semper.</li>
+	</ul>
+	<br>
+	<br>
+	<button id="search-button" onclick="search(document.getElementById('search-text').value)">click me</button>
+	<input type="text" id="search-text" value="ornare">
+	<br>
+	<div> 
+		Proin ornare nunc sodales <span>ornare</span> lorem rhoncus ornare fringilla 
+		</div> 
+		<div> 
+		Proin ornare nunc sodales or<span>nare</span> lorem rhoncus ornare fringilla 
+		</div> 
+		<div> 
+		Proin ornare nunc sodales ornare lorem rhoncus ornare fringilla 
+		</div>
+</body>
+
+</html>
